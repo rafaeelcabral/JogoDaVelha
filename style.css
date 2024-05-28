@@ -1,0 +1,67 @@
+label{
+    margin-right: 20px;
+}
+
+#JogoDaVelha{
+    width: 170px;
+    height: 170px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    visibility: hidden;
+    border: 1px solid black;
+}
+
+#JogoDaVelha div{
+    width: 50px;
+    height: 50px;
+    float: left;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#JogoDaVelha div:hover{
+    background-color: cadetblue;
+}
+
+
+/*------ Bordas Brancas ------*/
+
+#div1{
+    border-left: 1px solid white !important;
+    border-top: 1px solid white !important;
+}
+
+#div2{
+    border-top: 1px solid white !important;
+}
+
+#div3{
+    border-right: 1px solid white !important;
+    border-top: 1px solid white !important;
+}
+
+#div4{
+    border-left: 1px solid white !important;
+}
+
+#div6{
+    border-right: 1px solid white !important;
+}
+
+#div7{
+    border-left: 1px solid white !important;
+    border-bottom: 1px solid white !important;
+}
+
+#div8{
+    border-bottom: 1px solid white !important;
+}
+
+#div9{
+    border-right: 1px solid white !important;
+    border-bottom: 1px solid white !important;
+}
+
+/*----- ---------------- -----*/
+

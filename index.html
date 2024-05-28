@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Jogo da Velha</title>
+    </head>
+
+    <body>
+
+        <h2>Jogo da Velha</h2> <br>
+
+        <label for="xOUo" style="font-weight: bold;">Escolha:</label> <br>
+        <label><input type="radio" name="xOUo" id="X" onclick="escolheuX()">X</label>
+        <label><input type="radio" name="xOUo" id="O" onclick="escolheuO()">O</label>
+
+        <div id="JogoDaVelha">
+
+            <div id="div1" class="linha1" style="margin-left: 8px; margin-top: 8px;" onclick="jogar('div1')"></div>
+
+            <div id="div2" class="linha1" style="margin-top: 8px;" onclick="jogar('div2')"></div>
+
+            <div id="div3" class="linha1" style="margin-top: 8px;" onclick="jogar('div3')"></div>
+
+            <!-- || -->
+            
+            <div id="div4" class="linha2" style="margin-left: 8px;" onclick="jogar('div4')"></div>
+            
+            <div id="div5" class="linha2" onclick="jogar('div5')"></div>
+            
+            <div id="div6" class="linha2" onclick="jogar('div6')"></div>
+
+            <!-- || -->
+
+            <div id="div7" class="linha3" style="margin-left: 8px;" onclick="jogar('div7')"></div>
+
+            <div id="div8"class="linha3" onclick="jogar('div8')"></div>
+            
+            <div id="div9"class="linha3" onclick="jogar('div9')"></div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
